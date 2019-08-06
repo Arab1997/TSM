@@ -1,2 +1,2 @@
-# TSM2
-NEWS
+# TSM
+NEWS FOR TSM
