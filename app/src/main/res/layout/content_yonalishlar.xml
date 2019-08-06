@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Yonalishlar"
+    tools:showIn="@layout/activity_yonalishlar">
+
+<!--<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">-->
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/btn_blak"
+        android:layout_height="22dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="419dp">
+
+        <TextView
+            android:id="@+id/ingografikalar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="italic"
+            android:textSize="16sp"
+            android:text="USTUVOR YO'NALISHLAR"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+    </LinearLayout>-->
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/yonalishlar1"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="322dp"
+        android:background="@drawable/btn_blak"
+        android:backgroundTint="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ONE"
+            android:layout_width="96dp"
+            android:layout_height="77dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/one" />
+
+        <LinearLayout
+            android:layout_width="308dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:layout_width="298dp"
+                android:layout_height="78dp"
+                android:layout_marginTop="12dp"
+                android:text="DAVLAT VA JAMIYAT QURILISHI TIZIMINI TAKOMILLASHTIRISHNING USTUVOR YO'NALISHLARI"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yonalishlar2"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginBottom="322dp"
+        android:background="@drawable/btn_blak"
+        android:backgroundTint="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/two"
+            android:layout_width="93dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:layout_alignBottom="@+id/yonalishlar2"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/two" />
+
+        <LinearLayout
+            android:layout_width="309dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/direction2"
+                android:layout_width="299dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="8dp"
+                android:text="QONUN USTUVORLIGIINI TA'MINLASH VA SUD-HUQUQ TIZIMINI YANADA ISLOH QILISHNING USTUVOR YO'NALISHLARI"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yonalishlar3"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/btn_blak"
+        android:backgroundTint="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/three"
+            android:layout_width="94dp"
+            android:layout_height="71dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/three" />
+
+        <LinearLayout
+            android:layout_width="307dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/direction3"
+                android:layout_width="297dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="14dp"
+                android:text="DAVLAT VA JAMIYAT QURILISHI TIZIMINI TAKOMILLASHTIRISHNING USTUVOR YO'NALISHLARI"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yonalishlar4"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="327dp"
+        android:background="@drawable/btn_blak"
+        android:backgroundTint="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/four"
+            android:layout_width="94dp"
+            android:layout_height="75dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/four" />
+
+        <LinearLayout
+            android:layout_width="301dp"
+            android:layout_height="108dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/direction4"
+                android:layout_width="301dp"
+                android:layout_height="79dp"
+                android:layout_marginTop="13dp"
+                android:text="IJTIMOIY SOHANI RIVOJLANTIRISHNING USTUVOR YO'NALISHLARI"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yonalishlar5"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginBottom="290dp"
+        android:background="@drawable/btn_blak"
+        android:backgroundTint="@color/colorBackground"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/five"
+            android:layout_width="94dp"
+            android:layout_height="80dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/five" />
+
+        <LinearLayout
+            android:layout_width="307dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/direction5"
+                android:layout_width="298dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:text="XAVFSIZLIK, MILLATLARARO TOTUVLIK VA BAG'RIKENGLIKNI TA'MINLASH HAMDA CHUQUR O'LYANGAN, O'ZARO MANFAATLI VA AMALIYTASHQI SIYOSAT SOHASIDAGI USTUVOR YO'NALISHLAR"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+    <!--
+</androidx.core.widget.NestedScrollView>-->
+</RelativeLayout>

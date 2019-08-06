@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/icon_news"
+            android:title="YANGILIKLAR" />
+        <item
+            android:id="@+id/nav_dav"
+            android:icon="@drawable/davlat"
+            android:title="DAVLAT DASTURI IJROSI" />
+        <item
+            android:id="@+id/nav_harakat"
+            android:icon="@drawable/logoo"
+            android:title="HARAKATLAR STRATEGIYASI" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="YIL YAKUNLARI" />
+
+    </group>
+
+    <item android:title="BIZ BILAN BOG'LANISH">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="info@strategy.uz" />
+
+            <item
+                android:id="@+id/nav_tel"
+                android:icon="@drawable/phone"
+                android:title="+998 71 239-01-91"
+                />
+        </menu>
+    </item>
+
+    <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/address"/>
+
+</menu>
+
+
+<!--    +998 71 239-01-91-->
+

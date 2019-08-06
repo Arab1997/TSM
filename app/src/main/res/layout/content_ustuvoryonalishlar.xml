@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Ustuvoryonalishlar"
+    tools:showIn="@layout/activity_ustuvoryonalishlar">
+
+
+
+
+   <!-- <LinearLayout
+        android:id="@+id/top_bar"
+        android:background="@drawable/btn_blak"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignTop="@+id/pager"
+        android:layout_alignBottom="@+id/last_bar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="322dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/ic"
+            android:layout_width="92dp"
+            android:layout_height="97dp"
+            android:layout_alignStart="@+id/top_bar"
+            android:background="@drawable/btn_blak"
+            android:src="@drawable/book1" />
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/posts2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="292dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/book_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:text="2018-yil ISLOHOTLARI "
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/hajmi"
+                        android:layout_width="56dp"
+                        android:layout_height="wrap_content"
+
+                        android:text="Hajmi" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/yuklash"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/btn_blak"
+                android:text="Yuklab olish"
+
+                />
+        </LinearLayout>
+    </LinearLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
